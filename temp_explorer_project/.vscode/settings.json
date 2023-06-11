@@ -1,0 +1,10 @@
+{
+	"cmake.environment": {
+		"OGRE_DIR": "D:\\Documents\\gits\\ogre\\build_debug\\sdk"
+	},
+	"cmake.configureArgs": [
+		"-DCMAKE_BUILD_TYPE=Debug",
+		"-DZLIB_DIR=C:\\Program Files\\zlib"
+	],
+	"cmake.configureOnOpen": true
+}
