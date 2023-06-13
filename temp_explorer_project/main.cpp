@@ -12,10 +12,10 @@ int main() {
 	}
 	archive.setKey(key);
 
-	archive.loadArchive("D:\\Downloads\\quickbms\\RallyTrophy\\Data\\Tracks\\track1\\models.bzf");
-	archive.saveDirectory("D:\\Downloads\\quickbms\\RallyTrophy\\Data\\Tracks\\track1\\models");
+	//archive.loadArchive("C:\\Users\\jamil\\projects\\OpenBugbear\\game\\RallyTrophy\\Data\\Tracks\\track1\\data.bzf");
+	//archive.saveDirectory("C:\\Users\\jamil\\projects\\OpenBugbear\\game\\out\\data");
 	// archive.unload();
-	// archive.loadDirectory("D:\\Downloads\\quickbms\\RallyTrophy\\Data\\Tracks\\track1\\data");
-	// archive.saveArchive("D:\\Downloads\\quickbms\\RallyTrophy\\Data\\Tracks\\track1\\data.bzf");
+	archive.loadDirectory("C:\\Users\\jamil\\projects\\OpenBugbear\\game\\out\\data");
+	archive.saveArchive("C:\\Users\\jamil\\projects\\OpenBugbear\\game\\RallyTrophy\\Data\\Tracks\\track1\\data.bzf");
 	return 0;
 }

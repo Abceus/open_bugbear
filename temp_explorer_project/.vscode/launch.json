@@ -16,7 +16,7 @@
 			"environment": [
 				{
 					"name": "PATH",
-					"value": "${env:Path};C:\\Program Files\\zlib\\bin" 
+					"value": "${env:Path};C:\\Users\\jamil\\projects\\OpenBugbear\\zlib_debug" 
 				}
 			],
 		},
