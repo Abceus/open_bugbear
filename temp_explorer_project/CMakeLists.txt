@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 
 project(bzf)
 
-find_package(ZLIB)
+find_package(ZLIB REQUIRED)
 
 add_executable(bzf 
 				main.cpp
